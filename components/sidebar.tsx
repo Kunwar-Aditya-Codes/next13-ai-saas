@@ -105,7 +105,7 @@ export const Sidebar = ({
                 <route.icon className={cn('h-5 w-5 mr-3', route.color)} />
                 {route.label}{' '}
                 <span className='ml-1 font-bold text-white'>
-                  {route?.isBeta && <p>(Beta)</p>}
+                  {route?.isBeta ? <p>(Beta)</p> : null}
                 </span>
               </div>
             </Link>
