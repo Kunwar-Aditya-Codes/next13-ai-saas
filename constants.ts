@@ -9,6 +9,7 @@ export const tools = [
     href: '/conversation',
     color: 'text-violet-500',
     bgColor: 'bg-violet-500/10',
+    isBeta: false,
   },
   {
     label: 'Music Generation',
@@ -16,6 +17,7 @@ export const tools = [
     href: '/music',
     color: 'text-emerald-500',
     bgColor: 'bg-emerald-500/10',
+    isBeta: true,
   },
   {
     label: 'Image Generation',
@@ -23,6 +25,7 @@ export const tools = [
     color: 'text-pink-700',
     bgColor: 'bg-pink-700/10',
     href: '/image',
+    isBeta: false,
   },
   {
     label: 'Video Generation',
@@ -30,6 +33,7 @@ export const tools = [
     color: 'text-orange-700',
     bgColor: 'bg-orange-700/10',
     href: '/video',
+    isBeta: true,
   },
   {
     label: 'Code Generation',
@@ -37,5 +41,6 @@ export const tools = [
     color: 'text-green-700',
     bgColor: 'bg-green-700/10',
     href: '/code',
+    isBeta: false,
   },
 ];
