@@ -11,7 +11,7 @@ import './globals.css';
 const font = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AI Fusion Hub',
+  title: 'Gen AI',
   description: 'AI Platform',
 };
 
